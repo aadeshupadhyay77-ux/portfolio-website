@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+    
+}
+
+html,body{
+    margin: 0;
+    height:100%;
+    width:100%;
+    position: relative;
+}
+.nav{
+    margin:0;
+    padding: 0 20px;
+    
+    background: linear-gradient(to top, pink,white);
+}
+
+.foot{
+    
+    
+    bottom:0px;
+    width:100%;
+}
+
+.card-header{
+    background: linear-gradient(to top, pink,white);
+}
+
+.card-body{
+    color: white;
+    background: linear-gradient(to bottom, rgb(184, 182, 182),rgb(100, 100, 100));
+
+}
+
+cite{
+    color:white;
+}
+
+
+/* HERO CAROUSEL FIX */
+#heroCarousel img {
+  height: 450px;          /* adjust if needed */
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Desktop pe thoda bada */
+@media (min-width: 992px) {
+  #heroCarousel img {
+    height: 520px;
+  }
+}
+
+#heroCarousel {
+  overflow: hidden;
+}
+
+
+
+

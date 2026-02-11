@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/index.css">
+  </head>
+  <body>
+    <nav >
+     <ul class="nav nav-underline">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#skills">Skills</a>
+        </li>
+          <a class="nav-link " aria-disabled="false" href="#projects">projects</a>
+        </li>
+         </li>
+          <a class="nav-link " aria-disabled="false" href="#contact">contact</a>
+        </li>
+     </ul>
+    </nav> 
+
+
+    <section class="container-fluid py-5 bg-light" id="home">
+  <div class="container">
+    <div class="row align-items-center min-vh-100">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+        <h1 class="fw-bold display-5">
+          Hi, I'm <span class="text-primary">Aadesh Upadhyay</span>
+        </h1>
+
+        <p class="lead mt-3">
+          Electronics Student | Web Developer | Tech Enthusiast  
+          Passionate about building smart and clean solutions.
+        </p>
+
+        <div class="mt-4">
+          <a href="#projects" class="btn btn-primary btn-lg me-3">
+            View Projects
+          </a>
+
+          <a href="#contact" class="btn btn-outline-dark btn-lg">
+            Contact Me
+          </a>
+        </div>
+      </div>
+
+      <!-- RIGHT IMAGE / CAROUSEL -->
+      <div class="col-md-6">
+
+        <div id="heroCarousel" class="carousel slide " data-bs-ride="carousel">
+
+          <div class="carousel-inner ">
+
+            <div class="carousel-item active">
+              <img
+                src="/images/IMG-20250629-WA0023.jpg"
+                class="d-block w-100 img-fluid"
+                alt="Profile Image"
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="/images/IMG-20250618-WA0037.jpg"
+                class="d-block w-100 img-fluid"
+                alt="Second Image"
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="/images/AADESHCV.jpg"
+                class="d-block w-100 img-fluid"
+                alt="Third Image"
+              />
+            </div>
+
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="container py-5" id="about">
+  <div class="row align-items-center">
+
+    <!-- LEFT IMAGE -->
+    <div class="col-md-5 mb-4 mb-md-0 text-center">
+      <img
+        src="/images/IMG-20250629-WA0023.jpg"
+        alt="Aadesh Upadhyay"
+        class="img-fluid rounded shadow"
+        style="max-width: 300px;"
+      />
+    </div>
+
+    <!-- RIGHT CONTENT -->
+    <div class="col-md-7">
+
+      <h2 class="fw-bold mb-3">About Me</h2>
+
+      <p class="text-muted">
+        Hi, I'm <strong>Aadesh Upadhyay</strong>, a BTech Electronics student with
+        a strong interest in web development and embedded systems. I enjoy
+        building practical projects and continuously improving my technical
+        skills.
+      </p>
+
+      <p class="text-muted">
+        Currently, I am focused on mastering front-end development and working
+        on real-world projects that combine electronics and software.
+      </p>
+
+      <!-- SKILL HIGHLIGHTS -->
+      <div class="row mt-4">
+
+        <div class="col-sm-6 mb-3">
+          ✔ Web Development
+        </div>
+
+        <div class="col-sm-6 mb-3">
+          ✔ Electronics & Embedded Systems
+        </div>
+
+        <div class="col-sm-6 mb-3">
+          ✔ IoT Projects
+        </div>
+
+        <div class="col-sm-6 mb-3">
+          ✔ Problem Solving
+        </div>
+
+      </div>
+
+      <!-- BUTTONS -->
+      <div class="mt-4">
+        <a href="v-Attend_AI_Architecture_visual.pptx" class="btn btn-primary me-3" download>
+          Download Resume
+        </a>
+
+        <a href="#contact" class="btn btn-outline-dark">
+          Contact Me
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="container py-5" id="skills">
+
+  <div class="text-center mb-5">
+    <h2 class="fw-bold">My Skills</h2>
+    <p class="text-muted">
+      Technologies and tools I work with.
+    </p>
+  </div>
+
+  <div class="row g-4">
+
+    <!-- WEB DEV -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+
+          <h5 class="card-title text-primary">Web Development</h5>
+
+          <p class="mb-1">HTML</p>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width: 85%">85%</div>
+          </div>
+
+          <p class="mb-1">CSS</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 80%">80%</div>
+          </div>
+
+          <p class="mb-1">Bootstrap</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-info" style="width: 75%">75%</div>
+          </div>
+
+          <p class="mb-1">JavaScript</p>
+          <div class="progress">
+            <div class="progress-bar bg-warning" style="width: 65%">65%</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ELECTRONICS -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+
+          <h5 class="card-title text-primary">Electronics & IoT</h5>
+
+          <p class="mb-1">Analog & Digital</p>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width: 80%">80%</div>
+          </div>
+
+          <p class="mb-1">Arduino / ESP32</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 70%">70%</div>
+          </div>
+
+          <p class="mb-1">Sensors</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-info" style="width: 65%">65%</div>
+          </div>
+
+          <p class="mb-1">PCB Basics</p>
+          <div class="progress">
+            <div class="progress-bar bg-warning" style="width: 60%">60%</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- TOOLS -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+
+          <h5 class="card-title text-primary">Tools & Software</h5>
+
+          <p class="mb-1">VS Code</p>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width: 90%">90%</div>
+          </div>
+
+          <p class="mb-1">Git & GitHub</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 75%">75%</div>
+          </div>
+
+          <p class="mb-1">Proteus / Multisim</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-info" style="width: 65%">65%</div>
+          </div>
+
+          <p class="mb-1">Figma</p>
+          <div class="progress">
+            <div class="progress-bar bg-warning" style="width: 55%">55%</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="container py-5" id="projects">
+
+  <div class="text-center mb-5">
+    <h2 class="fw-bold">My Projects</h2>
+    <p class="text-muted">
+      Some of the work I've built recently.
+    </p>
+  </div>
+
+  <div class="row g-4">
+
+    <!-- PROJECT 1 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+
+        <img
+          src="/images/project1.jpg"
+          class="card-img-top"
+          alt="Smart Patient Monitoring System"
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">Smart Patient Monitoring System</h5>
+
+          <p class="card-text">
+            IoT-based system to track vital signs like temperature and heart
+            rate and send data remotely for healthcare monitoring.
+          </p>
+
+          <div class="d-flex gap-2">
+            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+            <a href="#" class="btn btn-outline-secondary btn-sm">
+              Source Code
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+
+        <img
+          src="/images/project2.jpg"
+          class="card-img-top"
+          alt="Portfolio Website"
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">Personal Portfolio Website</h5>
+
+          <p class="card-text">
+            Responsive portfolio built using HTML, Bootstrap and JavaScript to
+            showcase my skills and projects.
+          </p>
+
+          <div class="d-flex gap-2">
+            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+            <a href="#" class="btn btn-outline-secondary btn-sm">
+              Source Code
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+
+        <img
+          src="/images/project3.jpg"
+          class="card-img-top"
+          alt="IoT Home Automation"
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">IoT Home Automation</h5>
+
+          <p class="card-text">
+            Control home appliances remotely using ESP32 and a mobile/web
+            interface.
+          </p>
+
+          <div class="d-flex gap-2">
+            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+            <a href="#" class="btn btn-outline-secondary btn-sm">
+              Source Code
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="container py-5" id="contact">
+
+  <div class="text-center mb-5">
+    <h2 class="fw-bold">Contact Me</h2>
+    <p class="text-muted">
+      Have a question or want to work together? Fill out the form below.
+    </p>
+  </div>
+
+  <div class="row justify-content-center">
+
+    <!-- FORM -->
+    <div class="col-md-7">
+
+      <div class="card shadow-sm">
+        <div class="card-body p-4">
+
+          <form action="https://formspree.io/f/xeeleore" method="POST">
+
+            <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input
+                 name="fullname"
+                type="text"
+                class="form-control"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Email Address</label>
+              <input
+                name="mail"
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea
+                name="msg"
+                class="form-control"
+                rows="4"
+                placeholder="Write your message..."
+                required
+              ></textarea>
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary px-5">
+                Send Message
+              </button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<div class="card foot">
+  <div class="card-header">
+    AADESH UPADHYAY
+  </div>
+  <div class="card-body">
+    <figure>
+      <blockquote class="blockquote">
+        <ul>
+            <li>Instagram: aadesh88118</li>
+            <li>Email: aadeshupadhyay77@gmail.com</li>
+            <li>Mobile:9839403018</li>
+        </ul>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        <cite title="Source Title wh">ALways be Honest to your career</cite>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+        
+
+
+
+    
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
