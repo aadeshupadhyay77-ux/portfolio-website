@@ -15,7 +15,7 @@ html,body{
     margin:0;
     padding: 0 20px;
     
-    background: linear-gradient(to top, pink,white);
+    background: linear-gradient(to top, pink,white) !important;
 }
 
 .foot{
@@ -26,7 +26,7 @@ html,body{
 }
 
 .card-header{
-    background: linear-gradient(to top, pink,white);
+    background: linear-gradient(to top, pink,white) !important;
 }
 
 .card-body{
@@ -42,7 +42,7 @@ cite{
 
 /* HERO CAROUSEL FIX */
 #heroCarousel img {
-  height: 450px;          /* adjust if needed */
+  height: 450px ;          /* adjust if needed */
   object-fit: cover;
   border-radius: 12px;
 }
@@ -50,13 +50,14 @@ cite{
 /* Desktop pe thoda bada */
 @media (min-width: 992px) {
   #heroCarousel img {
-    height: 520px;
+    height: 520px !important;
   }
 }
 
 #heroCarousel {
   overflow: hidden;
 }
+
 
 
 
